@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="Heading">
+    <h1>Application Form</h1>   
+</div>
+
+<table class="tableForm">
+    <tr>
+        <td><label>Name</label></td>
+        <td><input id="name"/></td>
+    </tr>
+    <tr>
+        <td><label>Age</label></td>
+        <td><input id="age" type="number" min="18" max="100"/></td>
+    </tr>
+    <tr>
+        <td><label>Gender</label></td>
+        <td style="padding-top:24px">
+            <input class="male" type="radio" value="Male" /><div style="margin-left: 5px">Male</div>
+            <input class="female" type="radio" value="Female" style="margin-left: 5px" /><div style="margin-left: 5px">Female</div>
+        </td>
+    </tr>
+    <tr>
+        <td><label>Email</label></td>
+        <td><input id="email" type="email"/></td>
+    </tr>
+    <tr>
+        <td><label>Phone Number</label></td>
+        <td><input id="number" /></td>
+    </tr>
+    <tr>
+        <td><label>Country</label></td>
+        <td><select id="country" class="Country"><option>India</option><option>USA</option></select></td>
+    </tr>
+    <tr>
+        <td><label>State</label></td>
+        <td><select id="state" class="State"></select></td>
+    </tr>
+    <tr>
+        <td><label>Image</label></td>
+        <td><button style="vertical-align:central;margin-top:20px">Select Image</button></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button id="submit" style="margin-top:25px; width:180px">SUBMIT</button></td>
+    </tr>
+</table>

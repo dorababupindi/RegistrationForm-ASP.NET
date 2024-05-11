@@ -1,0 +1,59 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.FormLabel{
+    display: block;
+    padding-top: 10px;
+    min-width:100px;
+}
+
+.Labels,.Fields{
+    margin-top: 10px;
+    
+}
+
+label {
+    display: block;
+    margin-top: 25px;
+}
+
+input {
+    display: block;
+    margin-top: 20px;
+}
+
+.BodyContent{
+    margin-bottom: 20px;
+}
+
+td:nth-child(1){
+    min-width:120px;
+}
+
+td:nth-child(2) {
+    display: inline-flex;
+    min-width: 120px;
+}
+
+.Country, .State{
+    width:185px;
+    padding:4px;
+    margin-top:20px;
+}
+
+#users-list-table{
+    display:table;
+}
+.columns {
+    display: table-row;
+}
+
+#F{
+    background-color: greenyellow;
+}
+/*
+.box{
+    border: 1px solid black;
+}*/
